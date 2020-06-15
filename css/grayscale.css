@@ -12,7 +12,7 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #00FFFF;
   border: 1px solid #64a19d;
 }
 
@@ -144,13 +144,13 @@
   letter-spacing: .15rem;
   border: 0;
 }
-
+/*color de boton de Intro, "un punto de inflexion", y tambien boton de submit*/
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #FFCB33;
 }
-
+/*color secundario de boton de intro*/
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #e6ab00;
 }
 
 .btn-primary:focus {
@@ -161,7 +161,7 @@
 .btn-primary:active {
   background-color: #467370 !important;
 }
-
+/*color de fondo para degradee de zona de "about"*/
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
@@ -178,11 +178,11 @@
 .projects-section .featured-text {
   padding: 2rem;
 }
-
+/*Barras de color en zona intro a servicios*/
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #FFCB33;
   }
 }
 
@@ -195,8 +195,9 @@
   .projects-section .project-text {
     padding: 5rem;
   }
+  /*bordes de color de textos de servicios*/
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #FFCB33;
     border-width: .25rem;
     width: 30%;
   }
@@ -228,18 +229,19 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #FFCB33;
 }
 
 .contact-section .card h4 {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: 'Varela Round';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 
+/*Barras de color en zona de contacto*/
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #FFCB33;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -270,9 +272,9 @@ body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
 }
-
+/*color de textos links*/
 a {
-  color: #64a19d;
+  color: #cca228;
 }
 
 a:focus, a:hover {
@@ -285,11 +287,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #FFCB33 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #FFCB33 !important;
 }
 
 footer {
