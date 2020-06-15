@@ -71,16 +71,19 @@
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
+
+  /*color de menus cuando se pone el cursor*/
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #00FFFF;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
+  /*color de texto y line ade menu superior*/
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #e5b62d;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #00FFFF;
   }
 }
 
@@ -229,7 +232,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #FFCB33;
+  border-bottom: 0.25rem solid #e5b62d;
 }
 
 .contact-section .card h4 {
@@ -241,7 +244,7 @@
 
 /*Barras de color en zona de contacto*/
 .contact-section .card hr {
-  border-color: #FFCB33;
+  border-color: #00FFFF;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -276,12 +279,12 @@ body {
 a {
   color: #cca228;
 }
-
+/*color secundario de texto titulo que redirige a home*/
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #00FFFF;
 }
-
+/*Fondo de textos de servicios*/
 .bg-black {
   background-color: #161616 !important;
 }
