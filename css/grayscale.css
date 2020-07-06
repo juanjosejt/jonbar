@@ -12,7 +12,7 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #00FFFF;
+  color: black;
   border: 1px solid #64a19d;
 }
 
@@ -157,12 +157,12 @@
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #FFCB33;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #FFCB33 !important;
 }
 /*color de fondo para degradee de zona de "about"*/
 .about-section {
