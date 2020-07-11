@@ -13,7 +13,7 @@
   font-size: 80%;
   padding: 0.75rem;
   color: black;
-  border: 1px solid #64a19d;
+  border: 1px solid black;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -27,10 +27,11 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(white, 20%);
   outline: none;
   background-color: transparent;
 }
+
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
@@ -47,12 +48,14 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
   }
+
+
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.9);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -91,7 +94,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 50rem;
   padding: 15rem 0;
   background:  url("../img/fondo.jpg");
   background-position: center;
@@ -101,6 +104,7 @@
 }
 
 .masthead h1 {
+
   font-family: 'Varela Round';
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -138,7 +142,10 @@
   }
 }
 
+/*posicion y color de boton */
 .btn {
+  position:relative;
+  top: 10rem;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   font-family: 'Varela Round';
