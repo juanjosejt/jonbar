@@ -174,6 +174,7 @@
 /*color de fondo para degradee de zona de "about"*/
 .about-section {
   padding-top: 10rem;
+  padding-bottom: 2rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -303,6 +304,12 @@ a:focus, a:hover {
 .text-primary {
   color: #FFCB33 !important;
 }
+
+.portafolio {
+  font-size: 110%;
+  padding-top: 1rem;
+}
+
 
 footer {
   padding: 5rem 0;
