@@ -77,7 +77,7 @@
 
   /*color de menus cuando se pone el cursor*/
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #00FFFF;
+    color: #00B5B5;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
@@ -86,7 +86,7 @@
   #mainNav.navbar-shrink .nav-link.active {
     color: #e5b62d;
     outline: none;
-    border-bottom: 0.25rem solid #00FFFF;
+    border-bottom: 0.25rem solid #00B5B5;
   }
 }
 
@@ -96,7 +96,7 @@
   height: auto;
   min-height: 50rem;
   padding: 15rem 0;
-  background:  url("../img/fondo.jpg");
+  background:  url("../img/fondo1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -251,7 +251,7 @@
 
 /*Barras de color en zona de contacto*/
 .contact-section .card hr {
-  border-color: #00FFFF;
+  border-color: #00B5B5;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -289,7 +289,7 @@ a {
 /*color secundario de texto titulo que redirige a home*/
 a:focus, a:hover {
   text-decoration: none;
-  color: #00FFFF;
+  color: #864D96;
 }
 /*Fondo de textos de servicios*/
 .bg-black {
