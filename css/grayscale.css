@@ -203,7 +203,7 @@
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 2rem;
   }
   /*bordes de color de textos de servicios*/
   .projects-section .project-text hr {
