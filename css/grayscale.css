@@ -90,13 +90,23 @@
   }
 }
 
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 50rem;
   padding: 15rem 0;
-  background:  url("../img/fondo1.jpg");
+  background:  url("");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -173,7 +183,7 @@
 }
 /*color de fondo para degradee de zona de "about"*/
 .about-section {
-  padding-top: 10rem;
+  padding-top: 12rem;
   padding-bottom: 2rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
