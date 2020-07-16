@@ -137,9 +137,12 @@ video {
 }
 
 @media (min-width: 992px) {
-  .masthead {
+  video {
     height: 100vh;
     padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .masthead h1 {
     font-size: 6.5rem;
