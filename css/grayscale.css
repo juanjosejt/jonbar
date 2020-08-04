@@ -46,19 +46,23 @@
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
+  /* color de titulo jonbar*/
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.8);
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 1);
   }
 
 
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 1);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    font-weight: bold;
+    color: #e5b62d;
   }
   #mainNav .nav-link:active {
     color: white;
