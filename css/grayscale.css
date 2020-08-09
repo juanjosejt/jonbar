@@ -328,8 +328,6 @@ a:focus, a:hover {
   padding-top: 1rem;
 }
 
-.img-fluid:hover {
-  filter: grayscale(1);
   
 
 }
