@@ -189,6 +189,8 @@ video {
 .btn-primary:active {
   background-color: #FFCB33 !important;
 }
+
+
 /*color de fondo para degradee de zona de "about"*/
 .about-section {
   padding-top: 12rem;
@@ -328,7 +330,7 @@ a:focus, a:hover {
   padding-top: 1rem;
 }
 
-  
+
 
 }
 
