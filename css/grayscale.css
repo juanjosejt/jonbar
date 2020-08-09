@@ -312,6 +312,11 @@ a:focus, a:hover {
   text-decoration: none;
   color: #00B5B5;
 }
+
+p {
+  font-size: 120%;
+}
+
 /*Fondo de textos de servicios*/
 .bg-black {
   background-color: #161616 !important;
@@ -326,7 +331,7 @@ a:focus, a:hover {
 }
 
 .portafolio {
-  font-size: 110%;
+  font-size: 130%;
   padding-top: 1rem;
 }
 
