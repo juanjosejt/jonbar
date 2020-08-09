@@ -308,7 +308,7 @@ a {
 /*color secundario de texto titulo que redirige a home*/
 a:focus, a:hover {
   text-decoration: none;
-  color: #864D96;
+  color: #00B5B5;
 }
 /*Fondo de textos de servicios*/
 .bg-black {
@@ -326,6 +326,12 @@ a:focus, a:hover {
 .portafolio {
   font-size: 110%;
   padding-top: 1rem;
+}
+
+.img-fluid:hover {
+  filter: grayscale(1);
+  
+
 }
 
 
