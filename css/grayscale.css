@@ -22,7 +22,7 @@
 
 #mainNav .navbar-brand {
   color: #161616;
-  font-weight: 700;
+  font-weight: 200;
   padding: .9rem 0;
 }
 
@@ -49,7 +49,7 @@
   /* color de titulo jonbar*/
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: rgba(255, 255, 255, 1);
   }
 
