@@ -278,7 +278,7 @@ video {
 }
 
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .contact-section .social a {
@@ -292,12 +292,15 @@ video {
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.1);
 }
 
 .contact-section .social a:active {
   color: #fff;
 }
+
+
 
 body {
   font-family: 'Nunito';
